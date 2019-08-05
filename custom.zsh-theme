@@ -1,3 +1,5 @@
+#FOR ZSH SHELL
+
 #first switch to zsh terminal by => chsh -s $(which zsh)
 #check avialable shell by using =>  cat /etc/shells
 
