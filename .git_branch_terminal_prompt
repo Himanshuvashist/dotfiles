@@ -1,4 +1,4 @@
-
+# FOR BASH
 # Show git branch in prompt
 
 #in non-interactive shell only the /etc/bash.bashrc file execute
