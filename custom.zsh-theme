@@ -1,5 +1,7 @@
 #FOR ZSH SHELL
 
+#Text color - #FCAF3E
+
 #first switch to zsh terminal by => chsh -s $(which zsh)
 #check avialable shell by using =>  cat /etc/shells
 
