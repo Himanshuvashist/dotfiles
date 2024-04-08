@@ -1,0 +1,60 @@
+[user]
+    name = Himanshu Vashist
+    email = 35025815+himanshuvashist@users.noreply.github.com
+
+[alias]
+    # Shortcuts for common commands
+    co = checkout
+    br = branch
+    ci = commit
+    st = status
+    df = diff
+    lg = log --graph --pretty=format:'%C(auto)%h%Creset -%C(auto)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+
+[core]
+    # Set the default editor (change to your preferred editor)
+    editor = nano
+    # Configure Git to use the rebase strategy by default
+    # when doing git pull
+    pull.rebase = true
+
+[color]
+    # Enable colored output
+    ui = auto
+
+[push]
+    # By default, push only the current branch to its upstream
+    # instead of all branches
+    default = current
+
+[credential]
+    # Use the cache to remember passwords for a certain time
+    helper = cache --timeout=3600
+
+[diff]
+    # Use patience algorithm for diffing
+    algorithm = patience
+
+[merge]
+    # Configure the merge tool
+    tool = vimdiff
+
+[core]
+    # Use LF (Unix-style) line endings on all platforms
+    autocrlf = input
+
+[alias]
+    # Shortcut to show last commit
+    last = log -1 HEAD
+
+[commit]
+    # Include summary in commit message
+    template = ~/.gitmessage
+
+[init]
+    # Set the default branch name when initializing a new repository
+    defaultBranch = main
+
+[help]
+    # Set the default web browser for opening Git documentation
+    browser = chrome
