@@ -10,13 +10,13 @@
     st = status
     df = diff
     lg = log --graph --pretty=format:'%C(auto)%h%Creset -%C(auto)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+    last = log -1 HEAD
 
 [core]
     # Set the default editor (change to your preferred editor)
     editor = nano
-    # Configure Git to use the rebase strategy by default
-    # when doing git pull
-    pull.rebase = true
+    # Use LF (Unix-style) line endings on all platforms
+    autocrlf = input
 
 [color]
     # Enable colored output
@@ -38,14 +38,6 @@
 [merge]
     # Configure the merge tool
     tool = vimdiff
-
-[core]
-    # Use LF (Unix-style) line endings on all platforms
-    autocrlf = input
-
-[alias]
-    # Shortcut to show last commit
-    last = log -1 HEAD
 
 [commit]
     # Include summary in commit message
